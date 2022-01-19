@@ -4,9 +4,11 @@ type ways="byEath"|"byAir";
 class Transport{
     private velocity:number;
     private wayToMove:ways;
+       name!: string;
     constructor(velocity:number,wayToMove:ways){
         this.velocity=velocity;
         this.wayToMove=wayToMove;
+     
 
     }
 
