@@ -10,7 +10,7 @@ class Box {
   }
   class ClearableBox extends Box {
     clear() {
-      this.contents = "";
+      return this.contents = "empty";
     }
   }
    

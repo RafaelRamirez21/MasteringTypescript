@@ -12,7 +12,7 @@ interface Array<Type> {
     /**
      * Appends new elements to an array, and returns the new length of the array.
      */
-    push(items: Type[]): number;
+    push(items: Type[]): number|Type;
    
     // ...
   }
