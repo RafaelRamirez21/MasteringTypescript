@@ -7,7 +7,7 @@ function init(target:any)
         lastname="Ramírez";
         sayMyName()
         {
-            return `${this.name} ${this.lastname} in`
+            return `${this.name} ${this.lastname} in that`
         }
     }
 }

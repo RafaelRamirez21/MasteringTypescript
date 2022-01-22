@@ -16,4 +16,4 @@ class P{
 }
 
 const p09=new P();
-p09.greet('hola');
+p09.greet('hola testing');
